@@ -13,10 +13,6 @@
 
 Click the button in this screen if you're seeing the `vscode` interface.
 
-### Via `vscode` input
-
-Press `CmdOrCtrl+P` and type: `ext install chrome-extension-manifest-json-schema`.
-
 ### Via `vscode` marketplace
 
 Look for `chrome-extension-manifest-json-schema`.
@@ -36,7 +32,7 @@ cd vscode-chrome-extesion-manifest-json-schema
 vsce package # needs vsce: npm install -g vsce
 
 # Execute
-cross-var code --install-extension vscode-chrome-extesion-manifest-json-schema-$VERSION$.vsix
+code --install-extension vscode-chrome-extesion-manifest-json-schema-$VERSION$.vsix
 
 # Uninstall
 code --uninstall-extension vscode-chrome-extesion-manifest-json-schema-$VERSION$.vsix

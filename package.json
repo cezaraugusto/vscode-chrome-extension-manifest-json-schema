@@ -18,7 +18,8 @@
   "scripts": {
     "prettier": "prettier **/*.{md,json} *.{md,json} --write",
     "test": "jasmine",
-    "build": "vsce package"
+    "build:extension": "vsce package",
+    "publish:extension": "vsce publish"
   },
   "prettier": {
     "proseWrap": "always",
@@ -48,7 +49,7 @@
     "jsonValidation": [
       {
         "fileMatch": "manifest.json",
-        "url": "./node_modules/chrome-extesion-manifest-json-schema/manifest/manifest.schema.v3.json"
+        "url": "./chrome-extension-manifest-schema.json"
       }
     ]
   },
