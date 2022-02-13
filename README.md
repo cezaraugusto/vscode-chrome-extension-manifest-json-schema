@@ -15,7 +15,7 @@ Click the button in this screen if you're seeing the `vscode` interface.
 
 ### Via `vscode` marketplace
 
-Look for `chrome-extension-manifest-json-schema`.
+Look for `vscode-chrome-extesion-manifest-json-schema`.
 
 ## Building from source
 
