@@ -1,0 +1,73 @@
+{
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cezaraugusto/vscode-chrome-extesion-manifest-json-schema.git"
+  },
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "name": "vscode-chrome-extesion-manifest-json-schema",
+  "version": "0.0.1",
+  "description": "An extension to finally bring support for Chrome Extesions Manifest JSON schemas into Visual Studio Code",
+  "author": {
+    "name": "Cezar Augusto",
+    "email": "boss@cezaraugusto.net",
+    "url": "https://cezaraugusto.net"
+  },
+  "scripts": {
+    "prettier": "prettier **/*.{md,json} *.{md,json} --write",
+    "test": "jasmine",
+    "build": "vsce package"
+  },
+  "prettier": {
+    "proseWrap": "always",
+    "tabWidth": 2
+  },
+  "files": [
+    "module.js"
+  ],
+  "keywords": [
+    "browser",
+    "chrome",
+    "extension",
+    "json",
+    "schemas",
+    "schema",
+    "manifest",
+    "v3",
+    "v2"
+  ],
+  "publisher": "cezaraugusto",
+  "displayName": "Chrome Extension Manifest JSON Schema",
+  "categories": [
+    "Linters",
+    "Other"
+  ],
+  "contributes": {
+    "jsonValidation": [
+      {
+        "fileMatch": "manifest.json",
+        "url": "./node_modules/chrome-extesion-manifest-json-schema/manifest/manifest.schema.v3.json"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/cezaraugusto/vscode-chrome-extesion-manifest-json-schema/issues"
+  },
+  "homepage": "https://cezaraugusto.github.io",
+  "galleryBanner": {
+    "theme": "dark",
+    "color": "#007C00"
+  },
+  "icon": "icon.png",
+  "dependencies": {
+    "chrome-extesion-manifest-json-schema": "^0.1.0",
+    "cross-var": "^1.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^4.0.2",
+    "prettier": "^1.14.3",
+    "vsce": "^2.6.7"
+  }
+}

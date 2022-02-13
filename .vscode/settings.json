@@ -1,0 +1,8 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/spec/fixtures/*.json"],
+      "url": "/node_modules/chrome-extesion-manifest-json-schema/manifest/manifest.schema.v3.json"
+    }
+  ]
+}

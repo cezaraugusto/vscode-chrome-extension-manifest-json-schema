@@ -1,0 +1,14 @@
+# directories
+.vscode/**
+.vscode-test/**
+.github
+spec
+
+# files
+.editorconfig
+.gitignore
+
+# Ignore everything in the "node_modules" directory, except the "plugins"
+# and "themes" directories.
+node_modules/*
+!node_modules/chrome-extesion-manifest-json-schema
