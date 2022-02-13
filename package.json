@@ -68,6 +68,7 @@
   },
   "devDependencies": {
     "jasmine": "^4.0.2",
+    "jsonschema": "^1.4.0",
     "prettier": "^1.14.3",
     "vsce": "^2.6.7"
   }
