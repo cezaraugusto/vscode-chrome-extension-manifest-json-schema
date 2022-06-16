@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 var {validate} = require('jsonschema');
 const manifestV3Schema =
-  require('../node_modules/chrome-extesion-manifest-json-schema/manifest/manifest.schema.v3.json');
+  require('../node_modules/chrome-extension-manifest-json-schema/manifest/manifest.schema.v3.json');
 
 const invalidManifest = [
   'externally_connectable_all_urls_not_allowlisted.json',
@@ -37,7 +37,7 @@ const invalidManifest = [
 
 const isValid = (instance) => validate(instance, manifestV3Schema).valid
 
-describe("Valid Chrome Extesion Manifest JSON Schema", function() {
+describe("Valid Chrome extension Manifest JSON Schema", function() {
   fs.readdirSync(path.resolve(__dirname, 'fixtures')).forEach((dirNext) => {
     const manifestPath = path.resolve(__dirname, 'fixtures', dirNext)
     const manifest = require(manifestPath)
