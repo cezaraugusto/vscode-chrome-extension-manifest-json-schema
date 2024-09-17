@@ -49,27 +49,27 @@
     "jsonValidation": [
       {
         "fileMatch": "manifest.json",
-        "url": "./chrome-extension-manifest-schema.json"
+        "url": "./node_modules/chrome-extension-manifest-json-schema/manifest/manifest.schema.v3.json"
       }
     ]
   },
   "bugs": {
     "url": "https://github.com/cezaraugusto/vscode-chrome-extension-manifest-json-schema/issues"
   },
-  "homepage": "https://cezaraugusto.github.io",
+  "homepage": "https://cezaraugusto.com",
   "galleryBanner": {
     "theme": "dark",
     "color": "#007C00"
   },
   "icon": "icon.png",
   "dependencies": {
-    "chrome-extension-manifest-json-schema": "^0.2.0"
+    "chrome-extension-manifest-json-schema": "^0.2.1"
   },
   "devDependencies": {
+    "@vscode/vsce": "^3.1.0",
     "cross-var": "^1.1.0",
-    "jasmine": "^4.0.2",
-    "jsonschema": "^1.4.0",
-    "prettier": "^1.14.3",
-    "vsce": "^2.6.7"
+    "jasmine": "^5.3.0",
+    "jsonschema": "^1.4.1",
+    "prettier": "^3.3.3"
   }
 }
