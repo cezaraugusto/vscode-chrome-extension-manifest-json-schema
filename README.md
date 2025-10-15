@@ -4,7 +4,7 @@
 
 > An extension to finally bring support for Chrome extensions Manifest JSON schemas into Visual Studio Code
 
-![Dcreenshot of vscode chrome extension manifest json schema](https://user-images.githubusercontent.com/4672033/153773501-974a48ef-950b-44db-a894-42a6de22279b.png)
+![Screenshot of vscode chrome extension manifest json schema](https://user-images.githubusercontent.com/4672033/153773501-974a48ef-950b-44db-a894-42a6de22279b.png)
 
 ## Installation
 
@@ -39,7 +39,7 @@ code --uninstall-extension vscode-chrome-extension-manifest-json-schema-$VERSION
 
 ## Make it very easy to develop cross-browser extensions
 
-Start building browser extensions that work across all major platforms, with support for TypeScript, WebAssembly, and next-generation JavaScript. [`Learn more ►►►`](https://extension.js.org)
+Start building browser extensions that work across all major platforms, with support for TypeScript, WebAssembly, and next-generation JavaScript. [`Learn more about Extension.js ►►►`](https://extension.js.org)
 
 ## License
 
