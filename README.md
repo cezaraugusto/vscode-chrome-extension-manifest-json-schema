@@ -1,13 +1,10 @@
-[action-image]: https://github.com/cezaraugusto/vscode-chrome-extension-manifest-json-schema/actions/workflows/ci.yml/badge.svg?branch=main
-[action-url]: https://github.com/cezaraugusto/vscode-chrome-extension-manifest-json-schema/actions
+# vscode-chrome-extension-manifest-json-schema
 
 [![workflow][action-image]][action-url]
 
-# vscode-chrome-extension-manifest-json-schema
-
 > An extension to finally bring support for Chrome extensions Manifest JSON schemas into Visual Studio Code
 
-<img alt="screenshot of vscode chrome extension manifest json schema" src="https://user-images.githubusercontent.com/4672033/153773501-974a48ef-950b-44db-a894-42a6de22279b.png">
+![Dcreenshot of vscode chrome extension manifest json schema](https://user-images.githubusercontent.com/4672033/153773501-974a48ef-950b-44db-a894-42a6de22279b.png)
 
 ## Installation
 
@@ -23,7 +20,7 @@ Look for `vscode-chrome-extension-manifest-json-schema`.
 
 If you do not want to get this extension from the Marketplace you can get it from source like this:
 
-```
+```shell
 # Clone
 git clone https://github.com/cezaraugusto/vscode-chrome-extension-manifest-json-schema.git
 
@@ -47,3 +44,6 @@ Start building browser extensions that work across all major platforms, with sup
 ## License
 
 MIT (c) Cezar Augusto.
+
+[action-image]: https://github.com/cezaraugusto/vscode-chrome-extension-manifest-json-schema/actions/workflows/ci.yml/badge.svg?branch=main
+[action-url]: https://github.com/cezaraugusto/vscode-chrome-extension-manifest-json-schema/actions
