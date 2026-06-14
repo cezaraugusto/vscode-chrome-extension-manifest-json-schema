@@ -8,7 +8,7 @@
     "vscode": "^1.28.0"
   },
   "name": "vscode-chrome-extension-manifest-json-schema",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "An extension to finally bring support for Chrome extensions Manifest JSON schemas into Visual Studio Code",
   "author": {
     "name": "Cezar Augusto",
@@ -16,18 +16,11 @@
     "url": "https://cezaraugusto.net"
   },
   "scripts": {
-    "prettier": "prettier **/*.{md,json} *.{md,json} --write",
     "test": "jasmine",
-    "build:extension": "vsce package",
-    "publish:extension": "vsce publish"
+    "build:extension": "node scripts/copy-schema.js && vsce package",
+    "publish:extension": "vsce publish",
+    "vscode:prepublish": "node scripts/copy-schema.js"
   },
-  "prettier": {
-    "proseWrap": "always",
-    "tabWidth": 2
-  },
-  "files": [
-    "module.js"
-  ],
   "keywords": [
     "browser",
     "chrome",
@@ -49,7 +42,7 @@
     "jsonValidation": [
       {
         "fileMatch": "manifest.json",
-        "url": "./node_modules/chrome-extension-manifest-json-schema/manifest/manifest.schema.v3.json"
+        "url": "./schemas/manifest.schema.v3.json"
       }
     ]
   },
@@ -63,14 +56,13 @@
   },
   "icon": "icon.png",
   "dependencies": {
-    "chrome-extension-manifest-json-schema": "^0.2.1"
+    "chrome-extension-manifest-json-schema": "^0.4.0"
   },
   "devDependencies": {
     "@vscode/vsce": "^3.1.0",
     "cross-var": "^1.1.0",
     "jasmine": "^5.3.0",
-    "jsonschema": "^1.4.1",
-    "prettier": "^3.3.3"
+    "jsonschema": "^1.4.1"
   },
   "packageManager": "pnpm@9.9.0"
 }

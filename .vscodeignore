@@ -3,9 +3,12 @@
 .vscode-test/**
 .github
 spec
+scripts
 
 # files
 .editorconfig
 .gitignore
+pnpm-lock.yaml
+*.vsix
 
 node_modules
