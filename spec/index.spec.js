@@ -32,7 +32,14 @@ const invalidManifest = [
   'externally_connectable_error_unknown_tld.json',
   'event_rules.json',
   'externally_connectable_error_bad_matches.json',
-  'externally_connectable_error_all_urls.json'
+  'externally_connectable_error_all_urls.json',
+  // Caught by the stricter Shared Module definitions in schema 0.4.0;
+  // these are malformed manifests Chrome itself rejects.
+  'shared_module_export_not_dict.json',
+  'shared_module_export_allowlist_not_list.json',
+  'shared_module_export_allowlist_item_not_string.json',
+  'shared_module_import_not_list.json',
+  'shared_module_import_invalid_version.json'
 ]
 
 const isValid = (instance) => validate(instance, manifestV3Schema).valid
