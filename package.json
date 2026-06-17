@@ -19,7 +19,9 @@
     "test": "jasmine",
     "build:extension": "node scripts/copy-schema.js && vsce package",
     "publish:extension": "vsce publish",
-    "vscode:prepublish": "node scripts/copy-schema.js"
+    "vscode:prepublish": "node scripts/copy-schema.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [
     "browser",
@@ -61,6 +63,8 @@
   "devDependencies": {
     "@vscode/vsce": "^3.1.0",
     "cross-var": "^1.1.0",
+    "eslint": "^10.5.0",
+    "eslint-config-auditor": "workspace:*",
     "jasmine": "^5.3.0",
     "jsonschema": "^1.4.1"
   },
