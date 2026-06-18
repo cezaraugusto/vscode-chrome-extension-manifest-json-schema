@@ -12,3 +12,7 @@ pnpm-lock.yaml
 *.vsix
 
 node_modules
+
+# secrets , never package
+.env
+.env.*
