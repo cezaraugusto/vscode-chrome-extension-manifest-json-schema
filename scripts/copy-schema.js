@@ -8,7 +8,9 @@ const path = require('path')
 const src = require.resolve(
   'chrome-extension-manifest-json-schema/manifest/manifest.schema.v3.json'
 )
+
 const destDir = path.join(__dirname, '..', 'schemas')
+
 fs.mkdirSync(destDir, {recursive: true})
 fs.copyFileSync(src, path.join(destDir, 'manifest.schema.v3.json'))
 console.log('Copied manifest.schema.v3.json into schemas/')
