@@ -44,9 +44,9 @@ code --install-extension vscode-chrome-extension-manifest-json-schema-$VERSION$.
 code --uninstall-extension vscode-chrome-extension-manifest-json-schema-$VERSION$.vsix
 ```
 
-## Make it very easy to develop cross-browser extensions
+## Build cross-browser extensions
 
-Start building browser extensions that work across all major platforms, with support for TypeScript, WebAssembly, and next-generation JavaScript. [`Learn more about Extension.js ►►►`](https://extension.js.org)
+Build cross-browser extensions with TypeScript, WebAssembly, and modern JavaScript. [Learn more about Extension.js](https://extension.js.org)
 
 ## License
 
