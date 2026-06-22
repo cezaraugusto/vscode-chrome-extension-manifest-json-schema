@@ -1,6 +1,6 @@
-[marketplace-version-image]: https://img.shields.io/visual-studio-marketplace/v/cezaraugusto.vscode-chrome-extension-manifest-json-schema.svg?color=0971fe
-[marketplace-installs-image]: https://img.shields.io/visual-studio-marketplace/i/cezaraugusto.vscode-chrome-extension-manifest-json-schema.svg?color=2ecc40
-[marketplace-url]: https://marketplace.visualstudio.com/items?itemName=cezaraugusto.vscode-chrome-extension-manifest-json-schema
+[marketplace-version-image]: https://vsmarketplacebadges.dev/version-short/cezaraugusto.vscode-chrome-extesion-manifest-json-schema.svg
+[marketplace-installs-image]: https://vsmarketplacebadges.dev/installs-short/cezaraugusto.vscode-chrome-extesion-manifest-json-schema.svg
+[marketplace-url]: https://marketplace.visualstudio.com/items?itemName=cezaraugusto.vscode-chrome-extesion-manifest-json-schema
 [action-image]: https://github.com/cezaraugusto/vscode-chrome-extension-manifest-json-schema/actions/workflows/ci.yml/badge.svg?branch=main
 [action-url]: https://github.com/cezaraugusto/vscode-chrome-extension-manifest-json-schema/actions
 
