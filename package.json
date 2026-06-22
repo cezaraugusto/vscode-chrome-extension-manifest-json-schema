@@ -8,7 +8,7 @@
     "vscode": "^1.28.0"
   },
   "name": "vscode-chrome-extesion-manifest-json-schema",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An extension to finally bring support for Chrome extensions Manifest JSON schemas into Visual Studio Code",
   "author": {
     "name": "Cezar Augusto",
@@ -24,13 +24,12 @@
     "lint:fix": "eslint . --fix"
   },
   "keywords": [
-    "browser",
     "chrome",
     "extension",
-    "json",
-    "schemas",
-    "schema",
     "manifest",
+    "json",
+    "schema",
+    "browser",
     "v3",
     "v2"
   ],
