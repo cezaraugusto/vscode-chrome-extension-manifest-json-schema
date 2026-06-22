@@ -10,6 +10,9 @@
 
 ![Screenshot of vscode chrome extension manifest json schema](https://user-images.githubusercontent.com/4672033/153773501-974a48ef-950b-44db-a894-42a6de22279b.png)
 
+This extension binds the Chrome extension JSON schema to your `manifest.json` files.
+You get inline validation and autocomplete for manifest fields while editing in Visual Studio Code.
+
 ## Installation
 
 ### Via `vscode` interface
