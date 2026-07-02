@@ -57,7 +57,7 @@
   },
   "icon": "icon.png",
   "dependencies": {
-    "chrome-extension-manifest-json-schema": "^0.4.1"
+    "chrome-extension-manifest-json-schema": "^0.4.2"
   },
   "devDependencies": {
     "@vscode/vsce": "^3.9.2",
